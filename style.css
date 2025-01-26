@@ -1,0 +1,51 @@
+body {
+    background-color: #808080;
+
+}
+.test {
+    margin: 0 auto;
+    background-color: green;
+    height: 6900px;
+     width: 6000px;
+}
+
+.btn1 {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 45pt;
+    font-weight: bold;
+    border: 2px solid powderblue;
+    margin-top: 100pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.btn1:hover {
+    background-color: tomato; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 45pt;
+    font-weight: bold;
+    border: 2px solid powderblue;
+    margin-top: 100pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+
+img {
+    display: block;        /* Ensures the image is treated as a block element */
+    margin-left: auto;     /* Automatically adjusts left margin */
+    margin-right: auto;    /* Automatically adjusts right margin */
+    width: 50%;            /* You can adjust the width as you like */
+}
