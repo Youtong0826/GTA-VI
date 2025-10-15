@@ -1,51 +1,75 @@
-body {
-    background-color: #808080;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.test {
-    margin: 0 auto;
-    background-color: green;
-    height: 6900px;
-     width: 6000px;
+body {
+  background-color: #808080;
+}
+
+.navbaba {
+  background-color: green;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  z-index: 1000;
+  font-size: 22pt;
+  color: tomato;
+  background-color: yellow;
+}
+
+.scr {
+  position: relative;
+
+  margin: 0;
+  margin-top: 0;
+  font-size: 32pt;
+  color: blueviolet;
+  background-color: aquamarine;
+  text-align: center;
 }
 
 .btn1 {
-    background-color: #04AA6D; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 45pt;
-    font-weight: bold;
-    border: 2px solid powderblue;
-    margin-top: 100pt;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 45pt;
+  font-weight: bold;
+  border: 2px solid powderblue;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
 .btn1:hover {
-    background-color: tomato; /* Green */
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 45pt;
-    font-weight: bold;
-    border: 2px solid powderblue;
-    margin-top: 100pt;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+  background-color: tomato; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 45pt;
+  font-weight: bold;
+  border: 2px solid powderblue;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
 
-
 img {
-    display: block;        /* Ensures the image is treated as a block element */
-    margin-left: auto;     /* Automatically adjusts left margin */
-    margin-right: auto;    /* Automatically adjusts right margin */
-    width: 50%;            /* You can adjust the width as you like */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
